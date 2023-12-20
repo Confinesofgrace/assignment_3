@@ -1,0 +1,211 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: lato;
+    
+}
+
+body
+{
+    background-color: rgba(245, 248, 250, 1);
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav
+{
+    padding: 2%, 8%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+nav ul
+{
+    list-style-type: none;
+    
+}   /* To remove bullets from the list*/
+
+nav ul li
+{
+    display: inline-block;
+    margin-left:2.5rem ;
+}
+
+a
+{
+    text-decoration: none;          /*Remove 'underline' from the links*/
+    color: rgba(29, 44, 60, 1);
+
+}
+
+button
+{
+    
+    width: 91px;
+    height: 40px;
+    background-color: rgba(29, 44, 60, 0); /*To remove fill/make button transparent*/
+    border-color: rgba(29, 44, 60, 1);
+    border-radius: 6px;
+}
+
+#content-container                             
+{   width:80%;
+    height: 795px;
+
+    
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto
+}
+
+
+#checkout
+{
+    background-color: white;
+    width: 65.022%;
+    height: 100%;
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#freelancer                              
+{
+    background-color: rgba(17, 121, 191, 1);
+    width: 34.97%;
+    height: 100%;
+
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+#footer
+{
+    margin-top: 33px;
+    margin-bottom: 139px;
+    display: flex;
+    justify-content: center;
+}
+
+#terms
+{
+    color: rgba(17, 121, 191, 1);
+
+    
+}
+/*Essential Layout Completed!*/
+
+
+/* Fill in Essential Content*/
+
+#checkout-header-container
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+
+    padding-left: 40px;
+    
+}
+
+
+
+#your-basic-info-container, #your-payment-info-container, #cta-and-foot-note-container   
+{
+    width: 100%;
+  
+
+    padding-left: 40px;
+    padding-right: 40px;
+       
+}
+
+#basic-info-header, #your-payment-info-header          /*container for basic info heading and payment info*/
+{
+    width: 80%;
+    display: flex;
+    
+    column-gap: 10px;
+}
+
+#text-basic-info, #text-your-payment-info      /* Used this to align heading with center of 'no.1 and 2' icon*/
+{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+#names, #credit-card
+{
+
+    display: flex;
+    column-gap: 10%;
+
+    flex-wrap: wrap;
+
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+
+input
+{
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: rgba(237,239,242,1);
+
+    padding:10px;
+}
+
+label
+{
+    display:block;
+}
+
+
+/*Frelancer Content*/
+
+#sidebar, #freelancer
+{
+    padding-top: 65px;
+    padding-left: 44px;
+    padding-right: 44px;
+
+    color: #FFF;
+
+}
+
+#price
+{
+    display: flex;
+
+    align-items: center;
+
+   
+
+}
+
+#sidebar-list
+{
+    list-style-type: none ;
+}
+
